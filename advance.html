@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>百度高级搜索</title>
+        <style>
+            .level
+            {
+                position: relative;
+                top:200px;
+                left:450px;
+                margin: 20px; 
+            }
+            #buttons{
+                background-color: blue;
+                color: aliceblue;
+                position:relative;
+                top:200px;
+                left:720px;
+                margin:10px;
+            }
+            .url{
+            position: fixed;
+            top:0px;
+            left:1420px;
+        }
+        </style>
+    </head>
+    <body>
+        <form action="https://www.baidu.com/s">
+            <div class="level">
+            包含全部关键词:<input type="text" name="q1" value="">
+            包含完整关键词:<input type="text" name="q2" value=""><br>
+            包含任意关键词:<input type="text" name="q3" value="">
+            禁止包含关键词:<input type="text" name="q4" value=""><br>
+            </div>
+            <input id="buttons" type="submit" value="百度搜索">
+        </form>
+        <a class="url" href="index.html">返回百度搜索</a>
+    </body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>百度图像搜索</title>
+        <style>
+        #image{
+        position: relative;
+        top:100px;
+        left:500px;
+        margin: 20px;
+     }
+        .writing{
+        width: 400px;
+        height: 30px;
+        background: rgb(255, 255, 255);
+        border: 1px solid #eee;
+        border-radius: 15px;
+        }
+        .url{
+            position: fixed;
+            top:0px;
+            left:1420px;
+        }
+        </style>
+    </head>
+    <body>
+        <div id="image">
+        <form action="https://image.baidu.com/search/index" class="fm">
+            <input class="writing" type="text" name="word" value="">
+            <input type="hidden" name="tn" value="baiduimage">
+            <input type="submit" value="百度图像搜索">
+        </form>
+        </div>
+        <a class="url" href="index.html">返回百度搜索</a>
+    </body>
+</html>
